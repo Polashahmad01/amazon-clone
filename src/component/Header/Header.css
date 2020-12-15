@@ -1,0 +1,127 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 70px;
+  background-color: #131921;
+  color: #fff;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+  padding: 0 1.5rem;
+}
+
+.header__bandLocation {
+  display: flex;
+  align-items: center;
+}
+
+.header__logo {
+  width: 110px;
+  object-fit: contain;
+  margin-top: 0.8rem;
+  margin-right: 1.5rem;
+  border: 1px solid #131921;
+  cursor: pointer;
+}
+
+.header__location {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border: 1px solid #131921;
+  padding: 0.3rem 0.5rem;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+
+.header__location:hover {
+  border: 1px solid #fff;
+  border-radius: 3px;
+}
+
+.header__locationOptionLineOne {
+  font-size: 11px;
+  margin-left: 1.3rem;
+}
+
+.lnr-map-marker {
+  font-size: 1.3rem;
+}
+
+.header__locationOptionLineTwo {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-left: 0.3rem;
+}
+
+.header__searchBox {
+  display: flex;
+  align-items: center;
+  width: 55%;
+}
+
+.header__searchInput {
+  outline: none;
+  border: none;
+  width: 100%;
+  padding: 0.5rem;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.lnr-magnifier {
+  font-size: 1.3rem;
+  background-color: #cd9042;
+  padding: 0.35rem 0.8rem;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.lnr-magnifier:hover {
+  background-color: #f69a34;
+}
+
+.header__navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.header__option {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 0.2rem 1rem;
+  margin: 0 0.2rem;
+  cursor: pointer;
+  border: 1px solid #131921;
+  transition: all 0.3s ease-in-out;
+}
+
+.header__option:hover {
+  border: 1px solid #fff;
+  border-radius: 3px;
+}
+
+.header__navbarOptionLineOne {
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.header__navbarOptionLineTwo {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-top: -0.2rem;
+}
+
+.lnr-cart {
+  font-size: 2rem;
+}
+
+a {
+  color: #fff;
+}

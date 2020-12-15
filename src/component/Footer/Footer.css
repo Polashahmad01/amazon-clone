@@ -1,0 +1,33 @@
+.footer {
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+}
+
+.footer__container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__option {
+  margin-top: 1rem;
+}
+
+.footer__title {
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+.footer__list {
+  margin: 0.3rem auto;
+}
+
+.footer__list > li {
+  font-size: 0.85rem;
+}
+
+.footer__copyright {
+  text-align: center;
+  margin: 0.3rem auto;
+  font-size: 0.85rem;
+}
